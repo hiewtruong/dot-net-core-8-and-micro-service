@@ -1,0 +1,102 @@
+[
+  {
+    "Id": "6e2d1a9f-7b3c-4e8d-9f2a-1b5c6d7e8f9a",
+    "Name": "Nike Air Max 270",
+    "Description": "Designed for professional as well as amateur running players. These outdoor shoes are crafted with advanced cushioning.",
+    "Price": 150.00,
+    "ImageFile": "images/products/nike_air_max_270.png",
+    "Summary": "Nike Air Max 270 with advanced cushioning.",
+    "Types": [
+      {
+        "Id": "8j3d4h6f-0g7h-9f4i-3h8j-7k1f5g6h7e8f",
+        "Name": "Running Shoes"
+      }
+    ],
+    "Brands": [
+      {
+        "Id": "3f7d8e1a-5b2c-4a9d-8c3e-2f6a7b8c9d0e",
+        "Name": "Nike"
+      }
+    ]
+  },
+  {
+    "Id": "7f3e2b0g-8c4d-5f9e-0a6b-2c7d8e9f0a1b",
+    "Name": "Nike ZoomX Vaporfly",
+    "Description": "Engineered for elite runners, offering lightweight design and energy return.",
+    "Price": 200.00,
+    "ImageFile": "images/products/nike_vaporfly.png",
+    "Summary": "Nike ZoomX Vaporfly for elite performance.",
+    "Types": [
+      {
+        "Id": "8j3d4h6f-0g7h-9f4i-3h8j-7k1f5g6h7e8f",
+        "Name": "Running Shoes"
+      }
+    ],
+    "Brands": [
+      {
+        "Id": "3f7d8e1a-5b2c-4a9d-8c3e-2f6a7b8c9d0e",
+        "Name": "Nike"
+      }
+    ]
+  },
+  {
+    "Id": "8g4f3c1h-9d5e-6g0f-1b7c-3d8e9f0a1b2c",
+    "Name": "Adidas Terrex Swift",
+    "Description": "Designed for outdoor hiking, providing durability and grip.",
+    "Price": 130.00,
+    "ImageFile": "images/products/adidas_terrex_swift.png",
+    "Summary": "Adidas Terrex Swift for hiking.",
+    "Types": [
+      {
+        "Id": "8j3d4h6f-0g7h-9f4i-3h8j-7k1f5g6h7e8f",
+        "Name": "Running Shoes"
+      }
+    ],
+    "Brands": [
+      {
+        "Id": "4e8f9d2b-6c3d-5b0e-9d4f-3g7b8c9d0e1f",
+        "Name": "Adidas"
+      }
+    ]
+  },
+  {
+    "Id": "9h5g4d2i-0e6f-7h1g-2c8d-4e9f0a1b2c3d",
+    "Name": "Puma RS-X",
+    "Description": "Stylish casual shoes with bold design and comfort.",
+    "Price": 110.00,
+    "ImageFile": "images/products/puma_rs_x.png",
+    "Summary": "Puma RS-X casual shoes.",
+    "Types": [
+      {
+        "Id": "9k4e5i7g-1h8i-0g5j-4i9k-8l2g6h7i8f9g",
+        "Name": "Casual Shoes"
+      }
+    ],
+    "Brands": [
+      {
+        "Id": "5g0a1e3c-7d4e-6c1f-0e5g-4h8c9d0e2g3a",
+        "Name": "Puma"
+      }
+    ]
+  },
+  {
+    "Id": "0i6h5e3j-1f7g-8i2h-3d9e-5f0a1b2c3d4e",
+    "Name": "Under Armour HOVR Sonic",
+    "Description": "Running shoes with energy-return foam for long-distance runs.",
+    "Price": 140.00,
+    "ImageFile": "images/products/ua_hovr_sonic.png",
+    "Summary": "Under Armour HOVR Sonic for running.",
+    "Types": [
+      {
+        "Id": "8j3d4h6f-0g7h-9f4i-3h8j-7k1f5g6h7e8f",
+        "Name": "Running Shoes"
+      }
+    ],
+    "Brands": [
+      {
+        "Id": "6h1b2f4d-8e5f-7d2g-1f6h-5i9d0e3f4b5c",
+        "Name": "Under Armour"
+      }
+    ]
+  }
+]
