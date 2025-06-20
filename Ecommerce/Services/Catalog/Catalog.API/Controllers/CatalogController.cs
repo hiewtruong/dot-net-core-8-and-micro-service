@@ -1,9 +1,10 @@
-using System.Net;
 using Catalog.Application.Commands;
 using Catalog.Application.Queries;
 using Catalog.Application.Response;
+using Catalog.Core.Specs;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace Catalog.API.Controllers
 {
@@ -39,11 +40,11 @@ namespace Catalog.API.Controllers
         
         [HttpGet]
         [Route("GetAllProducts")]
-        [ProducesResponseType(typeof(IList<ProductResponse>),(int)HttpStatusCode.OK)]
+        [ProducesResponseType(typeof(Pagination<ProductResponse>),(int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
-        public async Task<ActionResult<ProductResponse>> GetAllProducts()
+        public async Task<ActionResult<IList<ProductResponse>>> GetAllProducts([FromQuery] CatalogSpecParams catalogSpecParams)
         {
-            var query = new GetAllProductsQuery();
+            var query = new GetAllProductsQuery(catalogSpecParams);
             var result = await _mediator.Send(query);
             return Ok(result);
         }
@@ -52,7 +53,7 @@ namespace Catalog.API.Controllers
         [Route("GetAllBrands")]
         [ProducesResponseType(typeof(IList<BrandResponse>),(int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
-        public async Task<ActionResult<BrandResponse>> GetAllBrands()
+        public async Task<ActionResult<IList<BrandResponse>>> GetAllBrands()
         {
             var query = new GetAllBrandsQuery();
             var result = await _mediator.Send(query);
@@ -63,7 +64,7 @@ namespace Catalog.API.Controllers
         [Route("GetAllTypes")]
         [ProducesResponseType(typeof(IList<TypeResponse>),(int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
-        public async Task<ActionResult<TypeResponse>> GetAllTypes()
+        public async Task<ActionResult<IList<TypeResponse>>> GetAllTypes()
         {
             var query = new GetAllTypesQuery();
             var result = await _mediator.Send(query);
