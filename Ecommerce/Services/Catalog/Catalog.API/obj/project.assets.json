@@ -737,7 +737,7 @@
           "bin/placeholder/Catalog.Core.dll": {}
         }
       },
-      "Catalog.Infrastruture/1.0.0": {
+      "Catalog.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -745,10 +745,10 @@
           "Microsoft.Extensions.Configuration.Binder": "8.0.2"
         },
         "compile": {
-          "bin/placeholder/Catalog.Infrastruture.dll": {}
+          "bin/placeholder/Catalog.Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Catalog.Infrastruture.dll": {}
+          "bin/placeholder/Catalog.Infrastructure.dll": {}
         }
       }
     }
@@ -2177,17 +2177,17 @@
       "path": "../Catalog.Core/Catalog.Core.csproj",
       "msbuildProject": "../Catalog.Core/Catalog.Core.csproj"
     },
-    "Catalog.Infrastruture/1.0.0": {
+    "Catalog.Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Catalog.Infrastruture/Catalog.Infrastruture.csproj",
-      "msbuildProject": "../Catalog.Infrastruture/Catalog.Infrastruture.csproj"
+      "path": "../Catalog.Infrastruture/Catalog.Infrastructure.csproj",
+      "msbuildProject": "../Catalog.Infrastruture/Catalog.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Asp.Versioning.Mvc >= 8.1.0",
       "Catalog.Application >= 1.0.0",
-      "Catalog.Infrastruture >= 1.0.0",
+      "Catalog.Infrastructure >= 1.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.22.1-Preview.1",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
@@ -2227,8 +2227,8 @@
             "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
               "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
             },
-            "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastruture.csproj": {
-              "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastruture.csproj"
+            "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastructure.csproj": {
+              "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastructure.csproj"
             }
           }
         }

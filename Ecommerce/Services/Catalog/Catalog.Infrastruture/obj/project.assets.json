@@ -1552,9 +1552,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastruture.csproj",
-      "projectName": "Catalog.Infrastruture",
-      "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastruture.csproj",
+      "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastructure.csproj",
+      "projectName": "Catalog.Infrastructure",
+      "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
       "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\obj\\",
       "projectStyle": "PackageReference",

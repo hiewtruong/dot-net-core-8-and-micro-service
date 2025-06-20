@@ -3,8 +3,8 @@ using Asp.Versioning;
 using Catalog.Application.Handlers;
 using Catalog.Application.Mappers;
 using Catalog.Core.Repositories;
-using Catalog.Infrastruture.Data;
-using Catalog.Infrastruture.Repositories;
+using Catalog.Infrastructure.Data;
+using Catalog.Infrastructure.Repositories;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,10 +1,10 @@
 using Catalog.Core.Entities;
 using Catalog.Core.Repositories;
 using Catalog.Core.Specs;
-using Catalog.Infrastruture.Data;
+using Catalog.Infrastructure.Data;
 using MongoDB.Driver;
 
-namespace Catalog.Infrastruture.Repositories
+namespace Catalog.Infrastructure.Repositories
 {
     public class ProductRepository : IProductRepository, IBrandRepository, ITypesRepository
     {

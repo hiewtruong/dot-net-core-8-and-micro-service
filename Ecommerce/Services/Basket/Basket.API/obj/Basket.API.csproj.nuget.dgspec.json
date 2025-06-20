@@ -1,185 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.API\\Basket.API.csproj": {}
   },
   "projects": {
-    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
-        "projectName": "Catalog.API",
-        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj",
+        "projectName": "Basket.Infrastructure",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
-        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
-                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
-              },
-              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastructure.csproj": {
-                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Asp.Versioning.Mvc": {
-              "target": "Package",
-              "version": "[8.1.0, )"
-            },
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.22.1-Preview.1, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
-        "projectName": "Catalog.Application",
-        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
-        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
-        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.3.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
-        "projectName": "Catalog.Core",
-        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
-        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
-        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\obj\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -218,13 +50,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "AspNetCore.HealthChecks.MongoDb": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
-              "version": "[8.0.1, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.27.0, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -247,14 +75,14 @@
         }
       }
     },
-    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastructure.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.API\\Basket.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastructure.csproj",
-        "projectName": "Catalog.Infrastructure",
-        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\Catalog.Infrastructure.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+        "projectName": "Basket.API",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.API\\Basket.API.csproj",
         "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
-        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastruture\\obj\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -275,8 +103,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
-                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj"
+              },
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj"
               }
             }
           }
@@ -297,11 +128,156 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.Extensions.Configuration.Binder": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[1.22.1-Preview.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj",
+        "projectName": "Basket.Application",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+        "projectName": "Basket.Core",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
