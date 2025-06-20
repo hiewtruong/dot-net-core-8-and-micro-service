@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Basket.Infrastruture\Basket.Infrastructure.csproj" />
     <ProjectReference Include="..\Basket.Application\Basket.Application.csproj" />
   </ItemGroup>
 

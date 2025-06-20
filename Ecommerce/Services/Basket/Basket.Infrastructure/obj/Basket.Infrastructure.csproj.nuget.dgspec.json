@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj": {}
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj",
-        "projectName": "Basket.Infrastructure",
-        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+        "projectName": "Basket.Core",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
         "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
-        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\obj\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,12 +49,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Extensions.Caching.StackExchangeRedis": {
-              "target": "Package",
-              "version": "[9.0.6, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -75,14 +69,14 @@
         }
       }
     },
-    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
-        "projectName": "Basket.Core",
-        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
+        "projectName": "Basket.Infrastructure",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
-        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\obj\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj": {
-                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket.Infrastruture\\Basket.Infrastructure.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj"
               }
             }
           }
@@ -124,6 +118,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
