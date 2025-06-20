@@ -9,17 +9,15 @@ namespace Catalog.Infrastruture.Data
         public static void SeedData(IMongoCollection<ProductBrand> brandCollection)
         {
             bool checkBrand = brandCollection.Find(p => true).Any();
-            string path = Path.Combine("Data", "SeedData","brands.json");
             if (!checkBrand)
             {
-                var brandsData = File.ReadAllText(path);
+                var basePath = Directory.GetCurrentDirectory();
+                var seedPath = Path.Combine(basePath, "Data", "SeedData", "brands.json");
+                var brandsData = File.ReadAllText(seedPath);
                 var brands = JsonSerializer.Deserialize<List<ProductBrand>>(brandsData);
                 if (brands != null)
                 {
-                    foreach (var item in brands)
-                    {
-                        brandCollection.InsertOneAsync(item);
-                    }
+                    brandCollection.InsertMany(brands);
                 }
             }
         }

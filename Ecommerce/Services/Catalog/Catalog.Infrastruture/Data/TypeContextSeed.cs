@@ -9,10 +9,11 @@ namespace Catalog.Infrastruture.Data
         public static void SeedData(IMongoCollection<ProductType> typeCollection)
         {
             bool checkType = typeCollection.Find(p => true).Any();
-            string path = Path.Combine("Data", "SeedData", "types.json");
             if (!checkType)
             {
-                var typesData = File.ReadAllText(path);
+                var basePath = Directory.GetCurrentDirectory();
+                var seedPath = Path.Combine(basePath, "Data", "SeedData", "types.json");
+                var typesData = File.ReadAllText(seedPath);
                 var types = JsonSerializer.Deserialize<List<ProductType>>(typesData);
                 if (types != null)
                 {

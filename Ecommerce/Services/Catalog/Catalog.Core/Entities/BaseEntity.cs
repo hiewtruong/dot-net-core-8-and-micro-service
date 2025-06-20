@@ -6,7 +6,7 @@ namespace Catalog.Core.Entities
     public class BaseEntity
     {
         [BsonId]
-        [BsonRepresentation(BsonType.ObjectId)]
+        [BsonRepresentation(BsonType.String)]
         public string Id { get; set; }
     }
 }

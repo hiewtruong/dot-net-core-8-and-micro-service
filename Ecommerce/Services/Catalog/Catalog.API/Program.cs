@@ -1,4 +1,6 @@
 using System.Reflection;
+using Asp.Versioning;
+using Catalog.Application.Handlers;
 using Catalog.Application.Mappers;
 using Catalog.Core.Repositories;
 using Catalog.Infrastruture.Data;
@@ -11,6 +13,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+// Add API Versioning
+builder.Services.AddApiVersioning(options =>
+{
+    options.ReportApiVersions = true;
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -21,7 +30,12 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddAutoMapper(typeof(Program).Assembly);
 
 //Register MediatR
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
+var asssemblies = new Assembly[]
+{
+    Assembly.GetExecutingAssembly(),
+    typeof(GetAllBrandsHandler).Assembly,
+};
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(asssemblies));
 
 //Register Application Services
 builder.Services.AddScoped<ICatalogContext, CatalogContext>();
@@ -34,6 +48,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
