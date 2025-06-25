@@ -26,7 +26,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj": {
+                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj"
+              },
+              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj": {
+                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -65,6 +72,222 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj",
+        "projectName": "Discount.Application",
+        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj",
+        "packagesPath": "/Users/hieutruong/.nuget/packages/",
+        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj": {
+                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.63.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj",
+        "projectName": "Discount.Core",
+        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj",
+        "packagesPath": "/Users/hieutruong/.nuget/packages/",
+        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj",
+        "projectName": "Discount.Infrastructure",
+        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj",
+        "packagesPath": "/Users/hieutruong/.nuget/packages/",
+        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj": {
+                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.63.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
