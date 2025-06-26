@@ -1,37 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.API/Discount.API.csproj": {}
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.API\\Discount.API.csproj": {}
   },
   "projects": {
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.API/Discount.API.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.API\\Discount.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.API/Discount.API.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.API\\Discount.API.csproj",
         "projectName": "Discount.API",
-        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.API/Discount.API.csproj",
-        "packagesPath": "/Users/hieutruong/.nuget/packages/",
-        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.API/obj/",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.API\\Discount.API.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Application\\Discount.Application.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Application\\Discount.Application.csproj"
               },
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj"
               }
             }
           }
@@ -46,12 +52,16 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.22.1-Preview.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -76,35 +86,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Application\\Discount.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Application\\Discount.Application.csproj",
         "projectName": "Discount.Application",
-        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj",
-        "packagesPath": "/Users/hieutruong/.nuget/packages/",
-        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/obj/",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Application\\Discount.Application.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Core\\Discount.Core.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Core\\Discount.Core.csproj"
               }
             }
           }
@@ -119,7 +135,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -154,27 +170,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Core\\Discount.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Core\\Discount.Core.csproj",
         "projectName": "Discount.Core",
-        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/Discount.Core.csproj",
-        "packagesPath": "/Users/hieutruong/.nuget/packages/",
-        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Core/obj/",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Core\\Discount.Core.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -193,7 +215,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -214,35 +236,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj",
         "projectName": "Discount.Infrastructure",
-        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/Discount.Infrastructure.csproj",
-        "packagesPath": "/Users/hieutruong/.nuget/packages/",
-        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Infrastructure/obj/",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Discount/Discount.Application/Discount.Application.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Application\\Discount.Application.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Discount\\Discount.Application\\Discount.Application.csproj"
               }
             }
           }
@@ -257,7 +285,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -292,7 +320,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

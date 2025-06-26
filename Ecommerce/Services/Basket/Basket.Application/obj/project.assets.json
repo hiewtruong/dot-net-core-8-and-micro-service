@@ -1483,36 +1483,44 @@
     ]
   },
   "packageFolders": {
-    "/Users/hieutruong/.nuget/packages/": {}
+    "C:\\Users\\giahi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Basket/Basket.Application/Basket.Application.csproj",
+      "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj",
       "projectName": "Basket.Application",
-      "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Basket/Basket.Application/Basket.Application.csproj",
-      "packagesPath": "/Users/hieutruong/.nuget/packages/",
-      "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Basket/Basket.Application/obj/",
+      "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Application\\Basket.Application.csproj",
+      "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+      "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Basket/Basket.Core/Basket.Core.csproj": {
-              "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Basket/Basket.Core/Basket.Core.csproj"
+            "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj": {
+              "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Basket\\Basket.Core\\Basket.Core.csproj"
             },
-            "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Core/Catalog.Core.csproj": {
-              "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Core/Catalog.Core.csproj"
+            "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+              "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
             }
           }
         }
@@ -1527,7 +1535,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -1558,7 +1566,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

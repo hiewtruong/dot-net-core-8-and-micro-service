@@ -1,40 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.API/Catalog.API.csproj": {}
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {}
   },
   "projects": {
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.API/Catalog.API.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.API/Catalog.API.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
         "projectName": "Catalog.API",
-        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.API/Catalog.API.csproj",
-        "packagesPath": "/Users/hieutruong/.nuget/packages/",
-        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.API/obj/",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\Catalog.API.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/Catalog.Application.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/Catalog.Application.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
               },
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj"
-              },
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastruture/Catalog.Infrastructure.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastruture/Catalog.Infrastructure.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj"
               }
             }
           }
@@ -49,7 +52,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -87,35 +90,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/Catalog.Application.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/Catalog.Application.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
         "projectName": "Catalog.Application",
-        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/Catalog.Application.csproj",
-        "packagesPath": "/Users/hieutruong/.nuget/packages/",
-        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/obj/",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Core/Catalog.Core.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Core/Catalog.Core.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
               }
             }
           }
@@ -130,7 +139,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -161,27 +170,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Core/Catalog.Core.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Core/Catalog.Core.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "projectName": "Catalog.Core",
-        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Core/Catalog.Core.csproj",
-        "packagesPath": "/Users/hieutruong/.nuget/packages/",
-        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Core/obj/",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -200,7 +215,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -231,35 +246,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj": {
+    "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj",
+        "projectUniqueName": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
         "projectName": "Catalog.Infrastructure",
-        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastructure/Catalog.Infrastructure.csproj",
-        "packagesPath": "/Users/hieutruong/.nuget/packages/",
-        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastructure/obj/",
+        "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\giahi\\.nuget\\packages\\",
+        "outputPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\giahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/Catalog.Application.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/Catalog.Application.csproj"
+              "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+                "projectPath": "D:\\R&D\\Git\\BackEnd\\r&d-dotnet8-and-microservice\\Ecommerce\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
               }
             }
           }
@@ -274,7 +295,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -301,77 +322,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastruture/Catalog.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastruture/Catalog.Infrastructure.csproj",
-        "projectName": "Catalog.Infrastructure",
-        "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastruture/Catalog.Infrastructure.csproj",
-        "packagesPath": "/Users/hieutruong/.nuget/packages/",
-        "outputPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Infrastruture/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/hieutruong/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/Catalog.Application.csproj": {
-                "projectPath": "/Users/hieutruong/Documents/Study/r&d-dot-net-8-and-microservice/Ecommerce/Services/Catalog/Catalog.Application/Catalog.Application.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.Extensions.Configuration.Binder": {
-              "target": "Package",
-              "version": "[8.0.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
