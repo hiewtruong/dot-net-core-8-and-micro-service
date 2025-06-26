@@ -1,5 +1,6 @@
 using System.Net;
 using Basket.Application.Commands;
+using Basket.Application.GrpcService;
 using Basket.Application.Queries;
 using Basket.Application.Responses;
 using MediatR;
@@ -10,6 +11,7 @@ namespace Basket.API.Controllers
     public class BasketController : ApiController
     {
         public IMediator _mediator;
+
         public BasketController(IMediator mediator)
         {
             _mediator  = mediator;

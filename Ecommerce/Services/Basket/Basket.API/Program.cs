@@ -1,5 +1,6 @@
 using System.Reflection;
 using Asp.Versioning;
+using Basket.Application.GrpcService;
 using Basket.Application.Handlers;
 using Basket.Core.Repositories;
 using Basket.Infrastructure.Repositories;
@@ -46,6 +47,11 @@ builder.Services.AddStackExchangeRedisCache(option =>
 
 //Application Services
 builder.Services.AddScoped<IBasketRepository, BasketRepository>();
+builder.Services.AddScoped<DiscountGrpcService>();
+builder.Services.AddGrpcClient<Discount.Grpc.Protos.DiscountProtoService.DiscountProtoServiceClient>(options =>
+{
+    options.Address = new Uri(builder.Configuration.GetValue<string>("GrpcSettings:DiscountUrl"));
+});
 
 var app = builder.Build();
 

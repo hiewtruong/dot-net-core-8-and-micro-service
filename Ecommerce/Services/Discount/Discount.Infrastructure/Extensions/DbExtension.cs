@@ -49,9 +49,9 @@ namespace Discount.Infrastructure.Extensions
                     cmd.ExecuteNonQuery();
                     cmd.CommandText = @"CREATE TABLE Coupon (Id SERIAL PRIMARY KEY, ProductName VARCHAR(24) NOT NULL, Description TEXT, Amount INT)";
                     cmd.ExecuteNonQuery();
-                    cmd.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('IPhone X', 'IPhone Discount', 150)";
+                    cmd.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Nike Air Max 270', 'Nike Air Max Discount', 10)";
                     cmd.ExecuteNonQuery();
-                    cmd.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Samsung 10', 'Samsung Discount', 100)";
+                    cmd.CommandText = "INSERT INTO Coupon (ProductName, Description, Amount) VALUES ('Adidas Terrex Swift', 'Adidas Discount', 15)";
                     cmd.ExecuteNonQuery();
                     break; // Exit loop if successful
                 }

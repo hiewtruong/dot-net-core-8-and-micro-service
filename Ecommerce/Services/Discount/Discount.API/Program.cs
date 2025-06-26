@@ -20,6 +20,7 @@ var assemblies = new Assembly[]
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(assemblies));
 builder.Services.AddScoped<IDiscountRepository, DiscountRepository>();
 builder.Services.AddGrpc();
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
