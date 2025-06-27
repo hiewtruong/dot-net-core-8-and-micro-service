@@ -1,0 +1,72 @@
+## Build results
+**/bin/
+**/obj/
+
+## Rider / VS Code / Visual Studio
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Test Results
+TestResults/
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+
+## Auto-generated files
+Generated_Code/
+GeneratedFiles/
+
+## Logs
+*.log
+logs/
+
+## NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+## Entity Framework
+Migrations/
+
+## Docker
+*.env
+.docker/
+docker-compose.override.yml
+
+## OS-specific
+.DS_Store
+Thumbs.db
+
+## Cache
+.cache/
+*.tmp
+
+## Others
+*.rej
+*.orig
+*.bak
+
+## Sonar
+.sonar/
+.scannerwork/
+
+## Publish
+publish/
+**/wwwroot/lib/
+
+# Optional: If you use secrets in config
+appsettings.Development.json
+secrets.json
+
+# Optional: User secrets
+*.dbmdl
+*.pdb
+*.mdb
+*.sql
