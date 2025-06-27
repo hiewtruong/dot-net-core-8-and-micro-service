@@ -6,6 +6,31 @@
 bin/
 obj/
 
+# Build output
+bin/
+obj/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.dgspec.json
+
+# User-specific files
+*.user
+*.suo
+*.vs/
+
+# Rider
+.idea/
+
+
 # Common node modules locations
 /node_modules
 /wwwroot/node_modules
