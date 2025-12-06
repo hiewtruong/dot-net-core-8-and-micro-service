@@ -6,7 +6,6 @@ namespace Ordering.Core.Entities
 {
     public class Order : EntityBase
     {
-        public int Id { get; protected set; }
         public string? UserName { get; set; }
         public decimal? TotalPrice { get; set; }
         public string? FirstName { get; set; }

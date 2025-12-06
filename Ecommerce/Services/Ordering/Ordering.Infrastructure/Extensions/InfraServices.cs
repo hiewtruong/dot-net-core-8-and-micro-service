@@ -9,7 +9,7 @@ namespace Ordering.Infrastructure.Extensions
 {
     public static class InfraServices
     {
-        public static IServiceCollection AddIfraServices(this IServiceCollection serviceCollection, IConfiguration configuration)
+        public static IServiceCollection AddInfraServices(this IServiceCollection serviceCollection, IConfiguration configuration)
         {
             serviceCollection.AddDbContext<OrderContext>(options => options.UseSqlServer(
                 configuration.GetConnectionString("OrderingConnectionString")));

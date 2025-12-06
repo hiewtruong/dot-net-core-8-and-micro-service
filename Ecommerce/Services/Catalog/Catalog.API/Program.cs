@@ -1,7 +1,6 @@
 using System.Reflection;
 using Asp.Versioning;
 using Catalog.Application.Handlers;
-using Catalog.Application.Mappers;
 using Catalog.Core.Repositories;
 using Catalog.Infrastructure.Data;
 using Catalog.Infrastructure.Repositories;
