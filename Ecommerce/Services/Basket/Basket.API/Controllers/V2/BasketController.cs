@@ -1,5 +1,8 @@
-using System.Net;
 using Asp.Versioning;
+using MassTransit;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using System.Net;
 using Basket.Application.Commands;
 using Basket.Application.GrpcService;
 using Basket.Application.Mappers;
@@ -7,13 +10,10 @@ using Basket.Application.Queries;
 using Basket.Application.Responses;
 using Basket.Core.Entities;
 using EventBus.Messages.Events;
-using MassTransit;
-using MediatR;
-using Microsoft.AspNetCore.Mvc;
 
-namespace Basket.API.Controllers
+namespace Basket.API.Controllers.V2
 {
-    [ApiVersion("1")]
+    [ApiVersion("2")]
     public class BasketController : ApiController
     {
         public IMediator _mediator;
@@ -26,35 +26,7 @@ namespace Basket.API.Controllers
             _publishEndpoint = publishEndpoint;
             _logger = logger;
         }
-
-        [HttpGet]
-        [Route("[action]/{userName}", Name = "GetBasketByUserName")]
-        [ProducesResponseType(typeof(ShoppingCartResponse), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<ShoppingCartResponse>> GetBasket(string userName)
-        {
-            var query = new GetBasketByUserNameQuery(userName);
-            var basket = await _mediator.Send(query);
-            return Ok(basket);
-        }
         
-        [HttpPost("CreateBasket")]
-        [ProducesResponseType(typeof(ShoppingCartResponse), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<ShoppingCartResponse>> UpdateBasket([FromBody] CreateShoppingCardCommand createShoppingCardCommand)
-        {
-            var basket = await _mediator.Send(createShoppingCardCommand);
-            return Ok(basket);
-        }
-
-        [HttpDelete]
-        [Route("[action]/{userName}", Name = "DeleteBasketByUserName")]
-        [ProducesResponseType(typeof(bool), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<bool>> DeleteBasket(string userName)
-        {
-            var query = new DeleteBasketByUserNameCommand(userName);
-            var result = await _mediator.Send(query);
-            return Ok(result);
-        }
-
         [Route("[action]", Name = "Checkout")]
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.Accepted)]
@@ -68,10 +40,10 @@ namespace Basket.API.Controllers
             {
                 return BadRequest();
             }
-            var eventMsg = BasketMapper.Mapper.Map<BasketCheckoutEvent>(basketCheckout);
+            var eventMsg = BasketMapper.Mapper.Map<BasketCheckoutEventV2>(basketCheckout);
             eventMsg.TotalPrice = basket.TotalPrice;
             await _publishEndpoint.Publish(eventMsg);
-            _logger.LogInformation($"Basket Published for {basket.UserName}");
+            _logger.LogInformation($"Basket Published for {basket.UserName} with V2 endpoint");
             //remove the basket after checkout
             var deleteBasketCommand = new DeleteBasketByUserNameCommand(basketCheckout.UserName);
             await _mediator.Send(deleteBasketCommand);

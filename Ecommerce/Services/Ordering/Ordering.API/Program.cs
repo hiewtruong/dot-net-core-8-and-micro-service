@@ -34,6 +34,7 @@ builder.Services.AddInfraServices(builder.Configuration);
 
 //Consumer class
 builder.Services.AddScoped<BasketOrderingConsumer>();
+builder.Services.AddScoped<BasketOrderingConsumerV2>();
 
 builder.Services.AddAuthorization();
 builder.Services.AddEndpointsApiExplorer();
@@ -55,7 +56,14 @@ builder.Services.AddMassTransit(config =>
         {
             c.ConfigureConsumer<BasketOrderingConsumer>(ctx);
         });
+        //V2 Version
+        cfg.ReceiveEndpoint(EventBusConstant.BasketCheckoutQueueV2, c =>
+        {
+            c.ConfigureConsumer<BasketOrderingConsumerV2>(ctx);
+        });
     });
+ 
+    
 });
 builder.Services.AddMassTransitHostedService();
 
