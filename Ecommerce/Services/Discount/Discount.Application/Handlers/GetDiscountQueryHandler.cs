@@ -8,15 +8,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 
 namespace Discount.Application.Handlers
 {
     public class GetDiscountQueryHandler : IRequestHandler<GetDiscountQuery, CouponModel>
     {
         public IDiscountRepository _discountRepository { get; set; }
-        public GetDiscountQueryHandler(IDiscountRepository discountRepository)
+        private readonly ILogger<GetDiscountQueryHandler> _logger;
+        public GetDiscountQueryHandler(IDiscountRepository discountRepository, ILogger<GetDiscountQueryHandler> logger)
         {
             _discountRepository = discountRepository;
+            _logger = logger;
         }
 
         public async Task<CouponModel> Handle(GetDiscountQuery request, CancellationToken cancellationToken)
@@ -33,6 +36,7 @@ namespace Discount.Application.Handlers
                 Description = coupon.Description,
                 Amount = coupon.Amount
             };
+            _logger.LogInformation($"Coupon for product {coupon.ProductName} is fetched.");
             return couponModel;
         }
     }
