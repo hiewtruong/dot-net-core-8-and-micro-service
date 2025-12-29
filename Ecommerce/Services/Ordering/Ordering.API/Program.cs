@@ -48,6 +48,7 @@ builder.Services.AddMassTransit(config =>
 {
     //Mark this as consumer
     config.AddConsumer<BasketOrderingConsumer>();
+    config.AddConsumer<BasketOrderingConsumerV2>();
     config.UsingRabbitMq((ctx, cfg) =>
     {
         cfg.Host(builder.Configuration["EventBusSettings:HostAddress"]);
@@ -96,7 +97,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

@@ -6,7 +6,7 @@ using Ordering.Application.Commands;
 
 namespace Ordering.API.EventBusConsumer
 {
-    public class BasketOrderingConsumerV2 : IConsumer<BasketCheckoutEvent>
+    public class BasketOrderingConsumerV2 : IConsumer<BasketCheckoutEventV2>
     {
         private readonly IMediator _mediator;
         private readonly IMapper _mapper;
@@ -20,7 +20,7 @@ namespace Ordering.API.EventBusConsumer
             _logger = logger;
         }
         
-        public async Task Consume(ConsumeContext<BasketCheckoutEvent> context)
+        public async Task Consume(ConsumeContext<BasketCheckoutEventV2> context)
         {
             using var scope = _logger.BeginScope("Consuming Basket Checkout Event for {correlationId}", context.Message.CorrelationId);
             var cmd = _mapper.Map<CheckoutOrderCommandV2>(context.Message);
