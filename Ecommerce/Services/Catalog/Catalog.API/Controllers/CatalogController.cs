@@ -42,6 +42,18 @@ namespace Catalog.API.Controllers
         }
         
         [HttpGet]
+        [Route("[action]/{brandName}", Name = "GetProductsByBrandName")]
+        [ProducesResponseType(typeof(IList<ProductResponse>),(int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        public async Task<ActionResult<ProductResponse>> GetProductsByBrandName(string brandName)
+        {
+            var query = new GetProductByBrandNameQuery(brandName);
+            var result = await _mediator.Send(query);
+            _logger.LogInformation($"Product Name: {brandName}");
+            return Ok(result);
+        }
+        
+        [HttpGet]
         [Route("GetAllProducts")]
         [ProducesResponseType(typeof(Pagination<ProductResponse>),(int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
