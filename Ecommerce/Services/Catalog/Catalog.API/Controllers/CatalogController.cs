@@ -45,11 +45,10 @@ namespace Catalog.API.Controllers
         [Route("[action]/{brandName}", Name = "GetProductsByBrandName")]
         [ProducesResponseType(typeof(IList<ProductResponse>),(int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.NotFound)]
-        public async Task<ActionResult<ProductResponse>> GetProductsByBrandName(string brandName)
+        public async Task<ActionResult<IList<ProductResponse>>> GetProductsByBrandName(string brandName)
         {
             var query = new GetProductByBrandNameQuery(brandName);
             var result = await _mediator.Send(query);
-            _logger.LogInformation($"Product Name: {brandName}");
             return Ok(result);
         }
         

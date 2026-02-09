@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { IProduct } from './shared/models/product';
+import { IPagination } from './shared/models/pagination';
 
 @Component({
   selector: 'app-root',
@@ -8,15 +10,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'eShopping';
-  products: any[] = [];
+  products: IProduct[] = [];
 
   constructor(private http: HttpClient) {}
   ngOnInit(): void {
     this.http
-      .get('http://localhost:8010/Catalog/GetProductsByBrandName/Nike')
+      .get<IPagination<IProduct>>('http://localhost:8010/Catalog/GetAllProducts')
       .subscribe({
-        next: (response: any) => {
-          this.products = response;
+        next: response => {
+          this.products = response.data;
           console.log(response);
         },
         error: (error) => console.error(error),
